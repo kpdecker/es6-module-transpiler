@@ -1,6 +1,24 @@
 # CHANGELOG
 
-## v0.3.0 (x, y, z)
+## v0.3.4 (Tuesday, November 19, 2013)
+
+* CJS: Build a module object when using `module foo from "foo"` for better forward-compatibility.
+* Added YUI transpiler, lovingly created & maintained by the YUI team
+* Fixed `'static'` keyword not being quoted in Esprima, causing issues in some JS runtimes
+
+## v0.3.3 (Friday, October 25, 2013)
+
+* Fix syntax error in CommonJS output with default imports and `compatFix` option.
+
+## v0.3.2 (Friday, October 18, 2013)
+
+* Fixes path resolution on the command line (thanks rpflorence!)
+
+## v0.3.1 (Thursday, October 17, 2013)
+
+* Use a working commit for Esprima
+
+## v0.3.0 (Wednesday, October 16, 2013)
 
 This is a **major, breaking version**. See TRANSITION.md for information on upgrading your code.
 
